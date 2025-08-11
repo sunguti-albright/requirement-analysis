@@ -71,18 +71,44 @@ Requirement analysis serves as a foundation for building reliable, cost-efficien
 These describe **what** the system should do—the specific features or actions it must support.
 
 **Examples for the hotel booking project:**
-- Users can search for available hotels by city, check-in, and check-out dates. :contentReference[oaicite:0]{index=0}  
-- Users can view hotel details, choose a room, and make a booking. :contentReference[oaicite:1]{index=1}  
-- The system handles payments and sends booking confirmations. :contentReference[oaicite:2]{index=2}  
+- Users can search for available hotels by city, check-in, and check-out dates. :contentReference
+- Users can view hotel details, choose a room, and make a booking. :contentReference
+- The system handles payments and sends booking confirmations. :contentReference
 
 ### Non-Functional Requirements
 These outline **how** the system performs—the qualities it must exhibit rather than specific features.
 
 **Examples for the hotel booking project:**
-- The system should respond quickly—e.g., display search results within 2 seconds. :contentReference[oaicite:3]{index=3}  
-- It must be secure and protect user data and payment information. :contentReference[oaicite:4]{index=4}  
-- The system should scale to handle many users and maintain reliability even under heavy load. :contentReference[oaicite:5]{index=5}  
+- The system should respond quickly—e.g., display search results within 2 seconds. 
+- It must be secure and protect user data and payment information. 
+- The system should scale to handle many users and maintain reliability even under heavy load. 
 
----
+## Use Case Diagrams
 
-By separating requirements into these two types, you ensure your hotel booking system not only works—but works well, quickly, securely, and at scale.
+Use Case Diagrams visually represent the interactions between system actors (like users or managers) and the system itself. They help teams quickly understand system functionality and user expectations.
+
+### Example: Booking System Use Case Diagram
+
+![Booking Use Case Diagram](alx-booking-uc.png) ---> will add image
+
+## Acceptance Criteria  
+
+Acceptance Criteria are the conditions that a software product must meet to be accepted by the end-user, customer, or other stakeholders. They act as a checklist that confirms whether a requirement or feature has been implemented successfully. Well-defined acceptance criteria help developers, testers, and business analysts ensure that the final product meets user needs and expectations.  
+
+### Why Acceptance Criteria are Important
+- **Clarity:** They remove ambiguity by clearly defining what "done" means.  
+- **Alignment:** They ensure all stakeholders (developers, testers, clients) have the same understanding of requirements.  
+- **Testing:** They provide a foundation for writing test cases.  
+- **Scope Management:** They prevent scope creep by setting boundaries on what is included in a feature.  
+
+### Example: Checkout Feature in Booking Management System  
+
+**Feature:** Checkout  
+
+**Acceptance Criteria:**  
+- The system should allow a user to select a booking and proceed to checkout.  
+- The system should display the total cost, including taxes and fees.  
+- The system should allow payment via credit/debit card, PayPal, or mobile money.  
+- A confirmation receipt should be generated and sent to the user’s email after successful payment.  
+- If payment fails, the user should be notified and given the option to retry or select a different payment method.  
+
