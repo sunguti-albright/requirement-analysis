@@ -112,3 +112,4 @@ Acceptance Criteria are the conditions that a software product must meet to be a
 - A confirmation receipt should be generated and sent to the user’s email after successful payment.  
 - If payment fails, the user should be notified and given the option to retry or select a different payment method.  
 
+Developed by [Ms. Albright Sunguti](https://albright-portfolio.vercel.app/)
