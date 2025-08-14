@@ -64,4 +64,25 @@ Requirement analysis serves as a foundation for building reliable, cost-efficien
 - **Requirement Validation**  
   Reviewing the documented requirements with stakeholders to confirm accuracy and completeness.  
   *Example:* Holding a review session to ensure everyone agrees on what the system should do. *
-  
+
+## Types of Requirements.
+
+### Functional Requirements
+These describe **what** the system should do—the specific features or actions it must support.
+
+**Examples for the hotel booking project:**
+- Users can search for available hotels by city, check-in, and check-out dates. :contentReference[oaicite:0]{index=0}  
+- Users can view hotel details, choose a room, and make a booking. :contentReference[oaicite:1]{index=1}  
+- The system handles payments and sends booking confirmations. :contentReference[oaicite:2]{index=2}  
+
+### Non-Functional Requirements
+These outline **how** the system performs—the qualities it must exhibit rather than specific features.
+
+**Examples for the hotel booking project:**
+- The system should respond quickly—e.g., display search results within 2 seconds. :contentReference[oaicite:3]{index=3}  
+- It must be secure and protect user data and payment information. :contentReference[oaicite:4]{index=4}  
+- The system should scale to handle many users and maintain reliability even under heavy load. :contentReference[oaicite:5]{index=5}  
+
+---
+
+By separating requirements into these two types, you ensure your hotel booking system not only works—but works well, quickly, securely, and at scale.
