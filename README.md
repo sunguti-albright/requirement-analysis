@@ -41,3 +41,27 @@ Requirement analysis serves as a foundation for building reliable, cost-efficien
 3. **Improves Quality of the Final Product**  
    Clear, well-documented requirements act as a benchmark for design, implementation, and testing. This ensures the end product meets user needs and functions as intended.  
    *Example:* Defining usability requirements early can result in a more intuitive and user-friendly interface.
+
+## Key Activities in Requirement Analysis
+ Requirement Analysis usually involves a few important activities that help teams understand what needs to be built and how to capture it properly. These include:
+
+- **Requirement Gathering**  
+  Collecting information from stakeholders, users, and customers about what they expect from the system.  
+  *Example:* Meeting with stakeholders to understand their main goals.
+
+- **Requirement Elicitation**  
+  Digging deeper into those needs through interviews, surveys, workshops, or direct observation.  
+  *Example:* Watching how users currently complete tasks to identify pain points.
+
+- **Requirement Documentation**  
+  Writing down the requirements in a structured and clear way so that everyone can refer to them later.  
+  *Example:* Creating user stories, use cases, or a requirements document.
+
+- **Requirement Analysis and Modeling**  
+  Checking the requirements for clarity, feasibility, and consistency, and representing them with simple models or diagrams.  
+  *Example:* Drawing a flowchart to show how a user will move through the system.
+
+- **Requirement Validation**  
+  Reviewing the documented requirements with stakeholders to confirm accuracy and completeness.  
+  *Example:* Holding a review session to ensure everyone agrees on what the system should do. *
+  
