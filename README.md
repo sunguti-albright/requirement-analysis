@@ -89,7 +89,7 @@ Use Case Diagrams visually represent the interactions between system actors (lik
 
 ### Example: Booking System Use Case Diagram
 
-![alx-booking-uc.png](/img/alx-booking-uc.png)
+![alx-booking-uc.png](alx-booking-uc.png)
 
 ## Acceptance Criteria  
 
